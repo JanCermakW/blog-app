@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to React",
+    "content": "React is a JavaScript library for building user interfaces..."
+  },
+  {
+    "id": 2,
+    "title": "Understanding Redux",
+    "content": "Redux is a predictable state container for JavaScript apps..."
+  },
+  {
+    "id": 3,
+    "title": "Getting Started with Bootstrap",
+    "content": "Bootstrap is a free and open-source CSS framework..."
+  }
+]
