@@ -14,10 +14,9 @@ const Login = () => {
         );
 
         if (user) {
-            localStorage.setItem('role', user.role); // Save role
-            localStorage.setItem('username', user.username); // Save username
-            localStorage.setItem('email', user.email); // Save email (assume it's in `users.json`)
-            navigate('/'); // Redirect to home page
+            localStorage.setItem('role', user.role); //Uložíme data pro další použití
+            localStorage.setItem('username', user.username);
+            navigate('/');
         } else {
             setError('Invalid username or password');
         }

@@ -8,9 +8,9 @@ const Header = () => {
     const username = localStorage.getItem('username') || 'User';
 
     const handleLogout = () => {
-        localStorage.clear(); // Clear all localStorage data
-        navigate('/'); // Redirect to the home page
-        window.location.reload(); // Refresh to reflect logged-out state
+        localStorage.clear(); //vyčistit local storage data
+        navigate('/');
+        window.location.reload(); // refresh stránky aby zmizli věci pro admina například
     };
 
     return (
