@@ -3,19 +3,19 @@ let articles = [
         id: 1,
         title: "Introduction to React",
         content: "React is a JavaScript library for building user interfaces...",
-        createdAt: "2023-11-01"
+        createdAt: "2024-11-01"
     },
     {
         id: 2,
         title: "Understanding Redux",
         content: "Redux is a predictable state container for JavaScript apps...",
-        createdAt: "2023-11-02"
+        createdAt: "2024-11-02"
     },
     {
         id: 3,
         title: "Getting Started with Bootstrap",
         content: "Bootstrap is a free and open-source CSS framework...",
-        createdAt: "2023-11-03"
+        createdAt: "2024-11-03"
     }
 ];
 
